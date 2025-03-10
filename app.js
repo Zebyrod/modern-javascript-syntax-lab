@@ -209,3 +209,18 @@ const theme = savedUserTheme || 'light';
 
 // console.log(theme);
 
+// ! Exercise 11:
+// a. Use optional chaining in a console.log so that a console log of
+//    `adventurer.cat.age` returns `undefined` instead of an error.
+//
+// Starting code (don't modify this):
+
+const adventurer = {
+    name: 'Alice',
+  };
+  
+  // Your code here:
+  
+let cat = adventurer.cat?.name;
+
+// console.log(cat);
